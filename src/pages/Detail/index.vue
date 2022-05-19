@@ -349,7 +349,7 @@ export default {
   },
 
   beforeMount() {
-    this.goodsId = this.$route.params.goodsId; //params的参数保存到一个变量里，因为后面可能还用到，可简化操作
+    this.goodsId = this.$route.params.goodsId; //发请求前params的参数保存到一个变量里，因为后面可能还用到，可简化操作
   },
   mounted() {
     this.getDetailInfo();
